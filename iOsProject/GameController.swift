@@ -221,6 +221,7 @@ class GameController: UIViewController, UICollectionViewDataSource, UICollection
         let controller = UIAlertController(title: "Fin de partie", message: "Votre score : \(score)", preferredStyle : .alert )
         let action1 = UIAlertAction(title: "Sauvegarder", style: .default) {
             (action : UIAlertAction) in
+            RulesClass.moves.removeAll()
             var k = 0
             for i in 0...3  {
                 for j in 0...3 {
