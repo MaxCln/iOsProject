@@ -256,6 +256,7 @@ class GameController: UIViewController, UICollectionViewDataSource, UICollection
         if !isLost {controller.addAction(action1)}
         controller.addAction(action2)
         self.present(controller, animated: true , completion: nil)
+        
     }
     
     func retrieveGame() {

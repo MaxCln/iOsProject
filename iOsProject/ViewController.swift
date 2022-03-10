@@ -38,6 +38,7 @@ class ViewController: UIViewController, UpdateVC {
         goldenLabel.text = "\(goldenScore)"
         silverLabel.text = "\(silverScore)"
         bronzeLabel.text = "\(bronzeScore)"
+        
     }
     
     func updateScore() {

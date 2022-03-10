@@ -35,6 +35,7 @@ class cellClass: UICollectionViewCell, NSCopying  {
             texte.textAlignment = .center
             texte.textColor = UIColor.black.withAlphaComponent(0.50)
             texte.font = UIFont.boldSystemFont(ofSize: 50.0)
+            
         }
         
         switch valeur {

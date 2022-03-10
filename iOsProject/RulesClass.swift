@@ -26,7 +26,6 @@ class RulesClass {
         if nullCells != [[Int]]() {
             return nullCells.randomElement()
         }
-        
         return nil
     }
     
